@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="registrazione" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="590.0" styleClass="registrazioneBG" style="css/index.css" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dentista.dentista.RegistrazioneController">
+    <children>
+        <Label prefHeight="51.0" prefWidth="291.0" text="REGISTRATI">
+            <font>
+                <Font name="Tahoma Bold" size="41.0" />
+            </font></Label>
+        <Label layoutX="35.0" layoutY="71.0" prefHeight="38.0" prefWidth="71.0" text="NOME:">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nome" layoutX="106.0" layoutY="71.0" prefHeight="38.0" prefWidth="149.0" promptText="inserisci il nome" styleClass="inputBG" />
+        <Label layoutX="266.0" layoutY="71.0" prefHeight="38.0" prefWidth="114.0" text="COGNOME:">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font></Label>
+        <TextField fx:id="cognome" layoutX="380.0" layoutY="71.0" prefHeight="38.0" prefWidth="149.0" promptText="inserisci il cognome" styleClass="inputBG" />
+        <Label layoutX="51.0" layoutY="144.0" prefHeight="38.0" prefWidth="71.0" text="ETA':">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font>
+        </Label>
+        <TextField fx:id="eta" layoutX="106.0" layoutY="144.0" prefHeight="38.0" prefWidth="149.0" promptText="inserisci l'età" styleClass="inputBG" />
+        <Label layoutX="328.0" layoutY="144.0" prefHeight="38.0" prefWidth="52.0" text="C.F. :">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font></Label>
+        <TextField fx:id="codiceFiscale" layoutX="380.0" layoutY="144.0" prefHeight="38.0" prefWidth="149.0" promptText="inserisci il c.f." styleClass="inputBG" />
+        <Label layoutX="35.0" layoutY="199.0" prefHeight="38.0" prefWidth="250.0" text="DESCRIVI LA PATOLOGIA:" textFill="RED" underline="true">
+            <font>
+                <Font name="Consolas Bold Italic" size="20.0" />
+            </font></Label>
+        <TextArea fx:id="patologia" layoutX="35.0" layoutY="237.0" prefHeight="139.0" prefWidth="250.0" promptText="inserisci qui la descrizione della patologia" />
+        <Label layoutX="409.0" layoutY="246.0" prefHeight="38.0" prefWidth="92.0" text="GIORNO:">
+            <font>
+                <Font name="Arial Bold" size="20.0" />
+            </font></Label>
+        <TextField fx:id="giorno" layoutX="376.0" layoutY="279.0" prefHeight="38.0" prefWidth="149.0" promptText="inserisci il giorno" styleClass="inputBG" />
+        <Button alignment="CENTER" layoutX="285.0" layoutY="246.0" mnemonicParsing="false" onAction="#invia" prefHeight="52.0" prefWidth="65.0" styleClass="buttonBG" text="INVIA">
+            <font>
+                <Font name="Arial Bold" size="15.0" />
+            </font></Button>
+        <Button layoutX="525.0" layoutY="-1.0" mnemonicParsing="false" onAction="#esci" prefHeight="33.0" prefWidth="65.0" styleClass="buttonBG" text="ESCI" underline="true">
+            <font>
+                <Font name="Arial Black" size="15.0" />
+            </font></Button>
+        <Button layoutX="285.0" layoutY="314.0" mnemonicParsing="false" onAction="#reset" prefHeight="52.0" prefWidth="65.0" styleClass="buttonBG" text="RESET">
+            <font>
+                <Font name="Arial Bold" size="13.0" />
+            </font></Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="590.0" styleClass="listaBG" style="css/index.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dentista.dentista.ListaController">
+    <children>
+        <Label layoutX="103.0" layoutY="53.0" prefHeight="42.0" prefWidth="385.0" text="LISTA DEI PAZIENTI IN ATTESA">
+            <font>
+                <Font name="Arial Bold Italic" size="25.0" />
+            </font></Label>
+        <ListView fx:id="listaPazienti" layoutX="139.0" layoutY="95.0" prefHeight="200.0" prefWidth="313.0" styleClass="listaPazienti" />
+    </children>
+</AnchorPane>

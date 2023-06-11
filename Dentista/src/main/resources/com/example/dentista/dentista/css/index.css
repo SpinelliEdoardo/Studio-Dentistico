@@ -1,0 +1,33 @@
+.homeBG{
+    -fx-background-color:
+            repeating-image-pattern("https://static.vecteezy.com/ti/vettori-gratis/p1/2596335-uniforme-da-dentista-sfondo-grigio-vettoriale.jpg")
+}
+
+.registrazioneBG{
+    -fx-background-color:
+            repeating-image-pattern("https://img.freepik.com/premium-photo/blue-clipboard-dental-model-dentist-instruments-blue-background_121946-3301.jpg")
+}
+
+.inputBG{
+    -fx-border-color: black;
+
+    -fx-background-color:
+            repeating-image-pattern("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgNCAgICAgHBwgIBw0HBwcHBw8ICQcKFREWFhURHx8YHCggGBolJxMTITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFQ0PFS0ZFRkrKy0tKystKy0tKysrLSstKys3LTctKys3NzctLS0tNy03LS0tKzctLS0rLSstKysrK//AABEIAKIBOAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAAAQIDBAcF/8QAGBABAQEBAQAAAAAAAAAAAAAAAAERAkH/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBAf/xAAaEQEBAAMBAQAAAAAAAAAAAAAAAQIRIQMx/9oADAMBAAIRAxEAPwD6zFB82e8VBBVjKlNCSqQAICgkAJIKiQCIpUqoCgAKIqIxKi1GSICIAkAJAhqKrGVMDcqxiNStxmtCK743gVAeapRFSFQSVUWFmrAChQQAChFEkRUBRFQUoACiKiKVFZDUAAhDUBXU0EQQKVZWVUTUWMytRuM1uCQdZeMtAOIAAlAKVYiwwVQgWVAKAEgoVJEVAURUFMQAFEVKijK1BWoJVZoICAgIkqASKgk1K1GFjUZrpBIjpKy6gObIAEoBSrEIRWoECyoBQAkAJIipQUQBSiVQFECos1FqBoZVAYgICAIiAkCKSrUYjRjLUVmK3sOyFGa5qEElEVJSIpgaEiwhRFIARJUBISrUoLIJRWhKqUISqlBZRagaSotRNIhQEQEhFQkASVYysSagkVuMu5BFXNYqKAKipCoELrTKwhQEAAoACRKtRFEVGWhFqJIUKCzUWommalWs0NAICAiICIhqBTUokVQNCQbD00gHKdcgiLGQqoFKIoQqBDWiGkaaE0SA1NSKioCIICAIiUKkzUWpQ0yytQNIIaGgTURVASBAlViEMDcBGg9dRalbznXGIsQc00IEKAEKgkoilCoIaAFtCACICICJCVUqKM1azQ0lZq1A1EQqBoBEVQCgTSVJViBibgkG2Xs6StdM119Z1wiBo4tAACiCTQggohqSiaqQAkFQSAREE01EqURErNWs0GM2otShuMggaBEKU1BHQII6alWMxY1GWoA0Hv6c66dMV6PaarzxlAeZpTUAmhNNSUTVQUQSUQSAElQKEIgSCCKoIklSrWaq1EZq1mhqIlq1nQ0VA1NAaakBooiNRlY3BW4JFaD9Dtz6B6/f7XlxYQHirpBUEhQCFBBQEgAIAKSoCSAIhQSEoIxGaCLLICtssgGogCaAEBYBiFngNQVqKDcD/9k=")
+}
+
+.buttonBG{
+    -fx-border-color: black;
+
+    -fx-background-color:
+            repeating-image-pattern("https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2a/Clay_%28texture%29_JE2_BE2.png/revision/latest?cb=20201006054701")
+}
+
+.listaBG{
+    -fx-background-color:
+            repeating-image-pattern("https://media.istockphoto.com/id/1047643206/it/foto/strumenti-dentisti-su-sfondo-blu-corncang-curette-sonda-dentale-morsetto-gross-mayer-specchio.jpg?s=612x612&w=0&k=20&c=94zcUV0ObFnGdoC1424RAUvjfoBxgNKfWEGG-lhAgto=")
+}
+
+.listaPazienti{
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
